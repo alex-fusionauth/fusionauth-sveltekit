@@ -40,8 +40,8 @@
               "application": {
                 "name": "ExampleNodeApp",
                 "oauthConfiguration" : {
-                    "authorizedRedirectURLs": ["http://localhost:3000/api/auth/callback/fusionauth"],
-                    "logoutURL": "http://localhost:3000/api/auth/",
+                    "authorizedRedirectURLs": ["http://localhost:5173/auth/callback/fusionauth"],
+                    "logoutURL": "http://localhost:5173/auth/",
                     "clientSecret": "#{clientSecret}",
                     "enabledGrants": ["authorization_code", "refresh_token"]
                 },
