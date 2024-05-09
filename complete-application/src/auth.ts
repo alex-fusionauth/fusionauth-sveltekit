@@ -10,7 +10,7 @@ const fusionAuth =     FusionAuth({
   tenantId: FUSIONAUTH_TENANT_ID, // Only required if you're using multi-tenancy
   authorization: {
     params: {
-      scope: "offline_access email openid",
+      scope: "offline_access email openid profile",
       tenantId: FUSIONAUTH_TENANT_ID,
     },
   },
